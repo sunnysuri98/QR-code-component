@@ -30,7 +30,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 /* card */
 .card {
@@ -60,9 +60,8 @@ main {
   padding-inline: 16px;
 }
 
-.content span {
-  font-size: 20px;
-  font-weight: 700;
+.content h1 {
+  font-size: 1.25rem;
   color: var(--Dark_blue);
 }
 
@@ -70,6 +69,8 @@ main {
   margin-top: 20px;
   color: var(--Grayish_blue);
 }
+
+/* Media queries */
 
 @media screen and (max-width: 375px) {
   .card {
